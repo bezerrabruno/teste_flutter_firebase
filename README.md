@@ -27,5 +27,7 @@ oferecendo uma interface intuitiva e recursos diversificados.
 Usuario de testes: **tester@email.com.br**<br>
 Senha de teste: **1234**<br>
 
+Usar apk da pasta de apks.
+
 ## Suporte
 Para questões ou suporte técnico, entre em contato com nossa equipe: https://www.linkedin.com/in/bruno-bezerra-7b07531a4.
