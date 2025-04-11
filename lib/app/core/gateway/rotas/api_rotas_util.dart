@@ -3,7 +3,7 @@ class ApiRotasUtil {
     return 'https://jsonplaceholder.typicode.com/comments';
   }
 
-  static String get thoughts {
+  static String get ideas {
     return 'https://jsonplaceholder.typicode.com/posts';
   }
 

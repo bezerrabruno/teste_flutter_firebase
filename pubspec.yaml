@@ -11,26 +11,21 @@ dependencies:
     sdk: flutter
 
   # app
-  bloc: ^9.0.0
   vibration: ^3.1.3
-  share_plus: ^10.1.4
-  flutter_bloc: 9.1.0
   url_launcher: ^6.3.1
-  flutter_svg: ^2.0.17
   fluttertoast: ^8.2.12
   cupertino_icons: ^1.0.8
-  tutorial_coach_mark: ^1.2.13
-  smooth_page_indicator: ^1.2.1
+  shimmer_animation: ^2.2.2
 
   # data
   dio: ^5.8.0+1
-  dartz: ^0.10.1
+  local_auth: ^2.3.0
 
   # domain
+  dartz: ^0.10.1
   crypto: ^3.0.6
-  local_auth: ^2.3.0
   flutter_modular: ^6.3.4
-  connectivity_plus: ^6.1.3
+  shared_preferences: ^2.5.3
 
   # Firebase
   firebase_auth: ^5.5.2

@@ -13,7 +13,7 @@ class ShowToastUtil {
       toastLength: Toast.LENGTH_LONG,
       fontSize: 16,
       textColor: Colors.white,
-      backgroundColor: Colors.orangeAccent,
+      backgroundColor: Colors.orange,
     );
   }
 

@@ -29,7 +29,7 @@ class _AppButtonState extends State<AppButton> {
   Widget build(BuildContext context) {
     return Material(
       borderRadius: BorderRadius.circular(24),
-      color: widget.enabled ? Colors.blueAccent : Colors.grey.shade400,
+      color: widget.enabled ? Colors.white : Colors.grey.shade400,
       child: InkWell(
         onTap: !widget.enabled || widget.loading ? null : widget.onTap,
         borderRadius: BorderRadius.circular(24),
@@ -46,8 +46,8 @@ class _AppButtonState extends State<AppButton> {
                   width: widget.width,
                   child: LinearProgressIndicator(
                     borderRadius: BorderRadius.circular(24),
-                    color: Colors.blueAccent,
-                    backgroundColor: Colors.blueAccent.shade200,
+                    color: Colors.lightBlue,
+                    backgroundColor: Colors.white,
                   ),
                 ),
               ),
@@ -56,8 +56,8 @@ class _AppButtonState extends State<AppButton> {
                   widget.textButton,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 24,
-                    color: Colors.white,
+                    fontSize: 20,
+                    color: Colors.blueAccent,
                   ),
                 ),
               ),
